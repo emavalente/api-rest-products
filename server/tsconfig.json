@@ -13,5 +13,6 @@
         "experimentalDecorators": true, // Necesario para los decoradores.
         "emitDecoratorMetadata": true // Necesario para los decoradores.
     },
-    "include": ["src/**/*.ts"]
+    "include": ["src/**/*.ts"],
+    "exclude": ["src/**/*.test.ts"]
 }
