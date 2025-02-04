@@ -1,9 +1,9 @@
 {
     "compilerOptions": {
-        "outDir": "./dist", // directorio de destino de archivos compilados.
+        "outDir": "dist", // directorio de destino de archivos compilados.
         "rootDir": "./src", // directorio general de lectura de archivos ts.
         "lib": ["ESNext"], // Qué librería de sintaxis de JS se usará.
-        "target":"ESNext", // Qué versión de sintaxis va a compilar.
+        "target":"ESNext", // Qué versión de sintaxis que va a compilar.
         "moduleResolution": "nodenext",
         "module": "NodeNext",
         "strict": false, // habilita el modo estricto: no acepta ningún tipo any.
