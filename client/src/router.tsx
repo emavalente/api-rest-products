@@ -2,7 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "./layouts/Layout";
 import Products, { action as updateAvailabilityAction, loader as productsLoader } from "./views/Products";
 import NewProduct, { action as newProductAction } from "./views/NewProduct";
-import EditProduct, { loader as editProductLoader, action as editProductAction } from "./views/EditProduct";
+import EditProduct, { action as editProductAction } from "./views/EditProduct";
+// import { loader as editProductLoader } from "./views/EditProduct";
 import { action as deleteProductAction } from "./components/ProductDetail";
 
 export const router = createBrowserRouter([
